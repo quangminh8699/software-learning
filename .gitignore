@@ -1,0 +1,48 @@
+# ===== Java =====
+# File biên dịch sinh ra khi chạy `javac Main.java`
+*.class
+
+# Log & file tạm của JVM (crash dump, GC log...)
+hs_err_pid*
+replay_pid*
+*.hprof
+*.log
+
+# Artifact build (nếu sau này thêm Maven/Gradle)
+target/
+build/
+out/
+bin/
+.gradle/
+
+# ===== IDE =====
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# ===== OS =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# AI
+.claude
+openspec
