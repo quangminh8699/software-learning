@@ -43,6 +43,10 @@ Desktop.ini
 # Linux
 *~
 
-# AI
-.claude
+# AI - chỉ track hướng dẫn dùng chung, tiếp tục ignore dữ liệu Claude cục bộ
+.claude/*
+!.claude/CLAUDE.md
+!.claude/templates/
+.claude/templates/*
+!.claude/templates/software-lesson.md
 openspec
